@@ -68,9 +68,10 @@ int				ft_is_base_valid(char *base, int base_length);
 void			ft_convert_in_base_b(unsigned long nbr2, \
 unsigned long base_length, char *base, char *str);
 char			*ft_putnbr_base_ul(unsigned long nbr, char *base);
-char			*ft_putnbr_base_u(unsigned int nbr, char *base);
+char			*ft_putnbr_base_u(unsigned int nbr, char *base, \
+								  t_format_code *ptr);
 char			*ft_putnbr_char(char c);
-char			*ft_putnbr_base(int nbr, char *base);
+char			*ft_putnbr_base(int nbr, char *base, t_format_code *ptr);
 int				ft_find_length(int n);
 char			*ft_itoa(int n);
 const char		*ft_get_libelle(const char *format, t_format_code *ptr);

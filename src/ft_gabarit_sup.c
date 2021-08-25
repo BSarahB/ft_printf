@@ -22,10 +22,15 @@ void	ft_gabarit_sup(t_format_code *ptr, char *str)
 	(*ptr).nb_spaces_for_g = (*ptr).n - (ft_strlen_int(str) + \
 	(*ptr).nb_0_digits_for_p + (*ptr).sign + (*ptr).flag + (*ptr).ox);
 	if (str[0] == '\0' && (*ptr).nb_spaces_for_g > 0)
-		(*ptr).nb_spaces_for_g -= 1;
+	{
+		if ((*ptr).limitation == 1 && (*ptr).p == 0 && (*ptr).conv != 'p')
+			(*ptr).nb_spaces_for_g = (*ptr).nb_spaces_for_g ;
+		else
+			(*ptr).nb_spaces_for_g -= 1;
+	}
 	if ((*ptr).nb_spaces_for_g >= 0)
 	{
-		if ((*ptr).zero == 1)
+		if ((*ptr).zero == 1 && (*ptr).limitation == 0 && (*ptr).minus == 0)
 			ft_reinit_cstring(&((*ptr).str_0fil_g), \
 			(size_t)(*ptr).nb_spaces_for_g, '0');
 		else

@@ -22,6 +22,7 @@ void	ft_define_flags(char *format_code, t_format_code *ptr, size_t current)
 	if (format_code[current] == '#')
 		(*ptr).diez = 1;
 	if (format_code[current] == '0')
-		if ((current == 0) || (ft_isdigit(format_code[current - 1]) == 0))
+		if (((current == 0) || (ft_isdigit(format_code[current - 1]) == 0)) \
+				&& (*ptr).limitation != 1)
 			(*ptr).zero = 1;
 }

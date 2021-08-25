@@ -26,12 +26,12 @@ char	*ft_convert_value(t_format_code *ptr, va_list params)
 	if ((*ptr).conv == 'p')
 		str = ft_putnbr_base_ul((unsigned long)(va_arg(params, void *)), BH);
 	if ((*ptr).conv == 'd' || (*ptr).conv == 'i')
-		str = ft_putnbr_base(va_arg(params, int), BD);
+		str = ft_putnbr_base(va_arg(params, int), BD, ptr);
 	if ((*ptr).conv == 'u')
-		str = ft_putnbr_base_u(va_arg(params, unsigned int), BD);
+		str = ft_putnbr_base_u(va_arg(params, unsigned int), BD, ptr);
 	if ((*ptr).conv == 'x')
-		str = ft_putnbr_base_u(va_arg(params, unsigned int), BH);
+		str = ft_putnbr_base_u(va_arg(params, unsigned int), BH, ptr);
 	if ((*ptr).conv == 'X')
-		str = ft_putnbr_base_u(va_arg(params, unsigned int), BHM);
+		str = ft_putnbr_base_u(va_arg(params, unsigned int), BHM, ptr);
 	return (str);
 }

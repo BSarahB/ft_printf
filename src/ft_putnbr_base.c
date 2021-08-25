@@ -11,17 +11,19 @@
 /* ************************************************************************** */
 #include "ft_printf.h"
 
-char	*ft_putnbr_base(int nbr, char *base)
+char	*ft_putnbr_base(int nbr, char *base, t_format_code *ptr)
 {
 	long	nbr2;
 	char	*str;
 	int		sign;
 	char	str_sign[2];
 
-	if (!ft_init_cstring(&str, STR_SIZE, 0))
+	if(!ft_init_cstring(&str, STR_SIZE, 0))
 		return (NULL);
+	if(nbr == 0 && (*ptr).p == 0 && (*ptr).limitation == 1)
+		return (str);
 	sign = 0;
-	 nbr2 = nbr;
+	nbr2 = nbr;
 	if (nbr2 < 0)
 	{
 		sign = 1;

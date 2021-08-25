@@ -6,12 +6,12 @@
 /*   By: mbenmesb <mbenmesb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/24 05:21:09 by mbenmesb          #+#    #+#             */
-/*   Updated: 2021/08/24 18:36:14 by mbenmesb         ###   ########.fr       */
+/*   Updated: 2021/08/25 19:08:32 by mbenmesb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "ft_printf.h"
 
-char	*ft_putnbr_base(int nbr, char *base)
+char	*ft_putnbr_base(int nbr, char *base, t_format_code *ptr)
 {
 	long	nbr2;
 	char	*str;
@@ -20,8 +20,10 @@ char	*ft_putnbr_base(int nbr, char *base)
 
 	if (!ft_init_cstring(&str, STR_SIZE, 0))
 		return (NULL);
+	if (nbr == 0 && (*ptr).p == 0 && (*ptr).limitation == 1)
+		return (str);
 	sign = 0;
-	 nbr2 = nbr;
+	nbr2 = nbr;
 	if (nbr2 < 0)
 	{
 		sign = 1;
