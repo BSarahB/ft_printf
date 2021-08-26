@@ -13,6 +13,15 @@
 
 int	main(void)
 {
+	char *str;
+	str = "";
+	int	ret_v;
+	int	ret_m;
+	//printf("v:%#*.*s:\n", 50, 0, 0);
+	//ft_printf("r:%#*.*s:\n", -50, 0, 0);
+	ret_v = printf("v:%-50s:\n", "-hello");
+	ret_m = ft_printf("r:%-50s:\n", "-hello");
+	/*
 	int	ret_v;
 	int	ret_m;
 	int	n;
@@ -26,8 +35,9 @@ int	main(void)
 	ret_v = printf(":%0.0u:\n", 0);
 	ret_m = ft_printf(":%0.0u:\n", 0);
 
-
+*/
 	printf("ret_v = %d\n", ret_v);
 	printf("ret_m = %d\n", ret_m);
-	return (0);
+
+return (0);
 }
