@@ -15,6 +15,8 @@ int	main(void)
 {
 	int	ret_v;
 	int	ret_m;
+	char *str;
+	str = NULL;
 //*********** CONV % ->PB avec % quand pas d argument variadique
 //test du debut ou cela segfaut
 	//ft_printf("%5%");
@@ -47,8 +49,8 @@ int	main(void)
 
 	//test 54	expected output : "  hello  world"
 	//			your output     : "helloworld"
-ret_m = ft_printf("r:%7s::%7s:\n", 0, "world");
-ret_v = printf("v:%7s::%7s:\n", 0, "world");
+ret_m = ft_printf("r:%s:\n", NULL);
+ret_v = printf("v:%s:\n", NULL);
 	//test 91 expected output : ""
 			//your output     : "(nu"
 

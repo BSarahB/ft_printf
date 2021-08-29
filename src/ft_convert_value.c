@@ -22,7 +22,15 @@ char	*ft_convert_value(t_format_code *ptr, va_list params)
 	{
 		str = va_arg(params, char *);
 		if (!str)
+		{
 			str = "(null)";
+			if ((*ptr).p < 6 && (*ptr).limitation == 1)
+			{
+				ft_init_cstring(&str, 1, 0);
+				(*ptr).n = (*ptr).n;
+				return (str);
+			}
+		}
 		str = ft_strndup(str, ft_strlen(str));
 	}
 	if ((*ptr).conv == 'p')
