@@ -6,7 +6,7 @@
 /*   By: mbenmesb <mbenmesb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/24 05:58:04 by mbenmesb          #+#    #+#             */
-/*   Updated: 2021/08/24 05:59:22 by mbenmesb         ###   ########.fr       */
+/*   Updated: 2021/08/26 18:31:34 by mbenmesb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "ft_printf.h"
@@ -21,6 +21,8 @@ char	*ft_convert_value(t_format_code *ptr, va_list params)
 	if ((*ptr).conv == 's')
 	{
 		str = va_arg(params, char *);
+		if (!str)
+			str = "(null)";
 		str = ft_strndup(str, ft_strlen(str));
 	}
 	if ((*ptr).conv == 'p')
