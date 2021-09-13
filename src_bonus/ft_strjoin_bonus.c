@@ -6,16 +6,16 @@
 /*   By: mbenmesb <mbenmesb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/23 22:35:02 by mbenmesb          #+#    #+#             */
-/*   Updated: 2021/08/24 06:23:03 by mbenmesb         ###   ########.fr       */
+/*   Updated: 2021/09/13 22:43:51 by mbenmesb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "ft_printf.h"
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {
-	int		len_s1;
-	int		len_s2;
-	char	*str;
+	size_t		len_s1;
+	size_t		len_s2;
+	char		*str;
 
 	if (!s1 || !s2)
 		return (NULL);

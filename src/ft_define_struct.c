@@ -6,7 +6,7 @@
 /*   By: mbenmesb <mbenmesb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/23 21:05:20 by mbenmesb          #+#    #+#             */
-/*   Updated: 2021/08/23 21:08:47 by mbenmesb         ###   ########.fr       */
+/*   Updated: 2021/09/13 22:43:11 by mbenmesb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "ft_printf.h"
@@ -31,6 +31,11 @@ void	ft_define_struct(char *format_code, t_format_code *ptr, va_list params)
 		cur_pos++;
 	}
 	str = ft_convert_value(ptr, params);
-	str = ft_custom_display(ptr, str);
+	if ((*ptr).conv != '\0')
+		str = ft_custom_display(ptr, str);
+	else
+	{
+		ft_putstr(format_code);
+	}
 	ft_free_struct_str(&str);
 }

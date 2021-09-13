@@ -19,23 +19,53 @@ int	main(void)
 	str = NULL;
 //*********** CONV % ->PB avec % quand pas d argument variadique
 //test du debut ou cela segfaut
-	//ft_printf("%5%");
-	//printf("%5%");
-		//test("%-5%");
-		//test("%05%");
-		//test("%-05%");}
+	//ret_m = ft_printf("%5%");
+	//ret_v = printf("%5%");
+
+//	printf("%32000000000%\n");
+	//ret_m = ft_printf("%5");
+		ret_m = printf("%s", NULL);
+	//	ret_v = printf("%5p", 0);
+		//printf("%-05%\n");
+
 	//Null specifier tests ->no crash
-	//test("%");
+//printf("%5");
+//printf("%!5");
+//
+//	printf("%05");
+//ret_m = ft_printf("%5%\n");
+//ret_v = printf("%5%\n");
+
+/*
+	//ft_printf("%5");
+	//ft_printf("%5%");
+
 	//test("%5");
 	//test("%05");
 	 //test("%-05");
 	//test("%-5");
 
+	//ft_printf("%32000000000%\n");
+	//printf("%-5%\n");
+		//ft_printf("%05%\n");
+		//ft_printf("%-05%\n");
+	//Null specifier tests ->no crash
+	//ft_printf("%\n");
 
+//%% Tests
+int pct_basic(void){return test("%%");}
+int pct_5w(void){return test("%5%");}
+int pct_5wlj(void){return test("%-5%");}
+int pct_5wzp(void){return test("%05%");}
+int pct_5wljzp(void){return test("%-05%");}
+//Null specifier tests
+ int nocrash_notrequired_nullspec_basic(void){return test("%");}
+ int nocrash_notrequired_nullspec_5w(void){return test("%5");}
+ int nocrash_notrequired_nullspec_5wzp(void){return test("%05");}
+ int nocrash_notrequired_nullspec_5wzplj(void){return test("%-05");}
+ int nocrash_notrequired_nullspec_5wlj(void){return test("%-5");}
 
-
-
-
+*/
 //PB AVEC *.* -->NOMBRES NEGATIFS NON PRIS EN CHARGE
 
 //******* CONV C ->
@@ -49,8 +79,8 @@ int	main(void)
 
 	//test 54	expected output : "  hello  world"
 	//			your output     : "helloworld"
-ret_m = ft_printf("r:%s:\n", NULL);
-ret_v = printf("v:%s:\n", NULL);
+//ret_m = ft_printf("r:%s:\n", NULL);
+//ret_v = printf("v:%s:\n", NULL);
 	//test 91 expected output : ""
 			//your output     : "(nu"
 
@@ -96,7 +126,7 @@ ret_v = printf("v:%s:\n", NULL);
 	ret_m = ft_printf(":%0.0u:\n", 0);
 
 */
-printf("ret_v = %d\n", ret_v);
+//printf("ret_v = %d\n", ret_v);
 printf("ret_m = %d\n", ret_m);
 
 return (0);
