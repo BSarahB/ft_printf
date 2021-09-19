@@ -16,7 +16,7 @@ char	*ft_custom_eval_sign(t_format_code *ptr, char **str)
 	char	*old_str;
 
 	(*ptr).str_sign = ft_reinit_cstring(&((*ptr).str_sign), 1, 0);
-	if ((*str)[0] == '-' && (*ptr).conv != 's')
+	if ((*str)[0] == '-' && (*ptr).conv != 's' && (*ptr).conv != 'c')
 	{
 		(*ptr).sign = 1;
 		(*ptr).str_sign[0] = '-';
