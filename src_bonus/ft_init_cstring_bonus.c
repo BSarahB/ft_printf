@@ -1,15 +1,15 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_init_cstring.c                                  :+:      :+:    :+:   */
+/*   ft_init_cstring_bonus.c                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mbenmesb <mbenmesb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/08/23 20:36:53 by mbenmesb          #+#    #+#             */
-/*   Updated: 2021/08/24 06:04:55 by mbenmesb         ###   ########.fr       */
+/*   Created: 2021/09/21 16:48:50 by mbenmesb          #+#    #+#             */
+/*   Updated: 2021/09/21 16:48:53 by mbenmesb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "ft_printf.h"
+#include "ft_printf_bonus.h"
 
 char	*ft_init_cstring(char **str, size_t len, char init_value)
 {

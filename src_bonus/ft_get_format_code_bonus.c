@@ -1,15 +1,15 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_get_format_code.c                               :+:      :+:    :+:   */
+/*   ft_get_format_code_bonus.c                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mbenmesb <mbenmesb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/08/23 21:43:20 by mbenmesb          #+#    #+#             */
-/*   Updated: 2021/09/13 22:42:28 by mbenmesb         ###   ########.fr       */
+/*   Created: 2021/09/21 16:45:36 by mbenmesb          #+#    #+#             */
+/*   Updated: 2021/09/21 16:45:39 by mbenmesb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "ft_printf.h"
+#include "ft_printf_bonus.h"
 
 const char	*ft_get_format_code(const char *format, t_format_code *ptr, \
 va_list params)

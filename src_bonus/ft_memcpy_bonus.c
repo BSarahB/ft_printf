@@ -1,15 +1,15 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memcpy.c                                        :+:      :+:    :+:   */
+/*   ft_memcpy_bonus.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mbenmesb <mbenmesb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/08/23 22:01:50 by mbenmesb          #+#    #+#             */
-/*   Updated: 2021/08/23 22:03:51 by mbenmesb         ###   ########.fr       */
+/*   Created: 2021/09/21 16:50:51 by mbenmesb          #+#    #+#             */
+/*   Updated: 2021/09/21 16:50:54 by mbenmesb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "ft_printf.h"
+#include "ft_printf_bonus.h"
 
 void	*ft_memcpy(void *dst, const void *src, size_t n)
 {

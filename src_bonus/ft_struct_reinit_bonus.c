@@ -1,15 +1,15 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_struct_reinit.c                                 :+:      :+:    :+:   */
+/*   ft_struct_reinit_bonus.c                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mbenmesb <mbenmesb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/08/23 23:27:01 by mbenmesb          #+#    #+#             */
-/*   Updated: 2021/08/24 18:33:33 by mbenmesb         ###   ########.fr       */
+/*   Created: 2021/09/21 17:07:40 by mbenmesb          #+#    #+#             */
+/*   Updated: 2021/09/21 17:07:42 by mbenmesb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "ft_printf.h"
+#include "ft_printf_bonus.h"
 
 void	ft_struct_reinit(t_format_code *ptr)
 {

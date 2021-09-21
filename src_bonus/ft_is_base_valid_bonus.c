@@ -1,15 +1,15 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   is_base_valid.c                                    :+:      :+:    :+:   */
+/*   ft_is_base_valid_bonus.c                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mbenmesb <mbenmesb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/08/23 23:30:03 by mbenmesb          #+#    #+#             */
-/*   Updated: 2021/08/23 23:32:01 by mbenmesb         ###   ########.fr       */
+/*   Created: 2021/09/21 16:49:16 by mbenmesb          #+#    #+#             */
+/*   Updated: 2021/09/21 16:49:19 by mbenmesb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "ft_printf.h"
+#include "ft_printf_bonus.h"
 
 int	ft_is_base_valid(char *base, int base_length)
 {

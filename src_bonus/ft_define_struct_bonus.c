@@ -1,15 +1,15 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_define_struct.c                                 :+:      :+:    :+:   */
+/*   ft_define_struct_bonus.c                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mbenmesb <mbenmesb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/08/23 21:05:20 by mbenmesb          #+#    #+#             */
-/*   Updated: 2021/09/13 22:43:11 by mbenmesb         ###   ########.fr       */
+/*   Created: 2021/09/21 16:42:13 by mbenmesb          #+#    #+#             */
+/*   Updated: 2021/09/21 16:42:16 by mbenmesb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "ft_printf.h"
+#include "ft_printf_bonus.h"
 
 void	ft_define_struct(char *format_code, t_format_code *ptr, va_list params)
 {

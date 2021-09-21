@@ -1,15 +1,15 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strndup.c                                       :+:      :+:    :+:   */
+/*   ft_strndup_bonus.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mbenmesb <mbenmesb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/08/23 22:44:20 by mbenmesb          #+#    #+#             */
-/*   Updated: 2021/08/24 06:02:05 by mbenmesb         ###   ########.fr       */
+/*   Created: 2021/09/21 17:02:38 by mbenmesb          #+#    #+#             */
+/*   Updated: 2021/09/21 17:03:08 by mbenmesb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "ft_printf.h"
+#include "ft_printf_bonus.h"
 
 char	*ft_strndup(const char *src, size_t n)
 {

@@ -1,15 +1,15 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_define_g.c                                      :+:      :+:    :+:   */
+/*   ft_define_g_bonus.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mbenmesb <mbenmesb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/08/23 20:47:13 by mbenmesb          #+#    #+#             */
-/*   Updated: 2021/08/23 20:53:24 by mbenmesb         ###   ########.fr       */
+/*   Created: 2021/09/21 16:41:11 by mbenmesb          #+#    #+#             */
+/*   Updated: 2021/09/21 16:41:15 by mbenmesb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "ft_printf.h"
+#include "ft_printf_bonus.h"
 
 void	ft_define_g(char *format_code, t_format_code *ptr, va_list params, \
 int *tc)

@@ -1,15 +1,15 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_struct_init.c                                   :+:      :+:    :+:   */
+/*   ft_struct_init_bonus.c                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mbenmesb <mbenmesb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/08/23 22:51:03 by mbenmesb          #+#    #+#             */
-/*   Updated: 2021/08/24 18:32:43 by mbenmesb         ###   ########.fr       */
+/*   Created: 2021/09/21 17:07:25 by mbenmesb          #+#    #+#             */
+/*   Updated: 2021/09/21 17:07:28 by mbenmesb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "ft_printf.h"
+#include "ft_printf_bonus.h"
 
 t_format_code	*ft_struct_init(t_format_code **ptr, char init_value)
 {

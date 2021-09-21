@@ -1,15 +1,15 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_convert_in_base_b.c                             :+:      :+:    :+:   */
+/*   ft_convert_in_base_b_bonus.c                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mbenmesb <mbenmesb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/08/23 19:33:48 by mbenmesb          #+#    #+#             */
-/*   Updated: 2021/08/23 19:34:30 by mbenmesb         ###   ########.fr       */
+/*   Created: 2021/09/21 16:29:11 by mbenmesb          #+#    #+#             */
+/*   Updated: 2021/09/21 16:29:18 by mbenmesb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "ft_printf.h"
+#include "ft_printf_bonus.h"
 
 void	ft_convert_in_base_b(unsigned long nbr2, unsigned long base_length, \
 	char *base, char *str)

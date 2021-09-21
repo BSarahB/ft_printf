@@ -1,15 +1,15 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_gabarit_sup.c                                   :+:      :+:    :+:   */
+/*   ft_gabarit_sup_bonus.c                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mbenmesb <mbenmesb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/08/23 21:38:08 by mbenmesb          #+#    #+#             */
-/*   Updated: 2021/08/25 19:49:30 by mbenmesb         ###   ########.fr       */
+/*   Created: 2021/09/21 16:44:56 by mbenmesb          #+#    #+#             */
+/*   Updated: 2021/09/21 16:45:05 by mbenmesb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "ft_printf.h"
+#include "ft_printf_bonus.h"
 
 void	ft_gabarit_sup(t_format_code *ptr, char *str)
 {

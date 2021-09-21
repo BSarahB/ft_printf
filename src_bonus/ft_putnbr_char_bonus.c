@@ -1,15 +1,15 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putnbr_char.c                                   :+:      :+:    :+:   */
+/*   ft_putnbr_char_bonus.c                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mbenmesb <mbenmesb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/08/23 22:29:14 by mbenmesb          #+#    #+#             */
-/*   Updated: 2021/08/24 06:21:55 by mbenmesb         ###   ########.fr       */
+/*   Created: 2021/09/21 16:55:20 by mbenmesb          #+#    #+#             */
+/*   Updated: 2021/09/21 16:55:26 by mbenmesb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "ft_printf.h"
+#include "ft_printf_bonus.h"
 
 char	*ft_putnbr_char(char c)
 {

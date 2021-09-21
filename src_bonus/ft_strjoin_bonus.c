@@ -1,15 +1,15 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strjoin.c                                       :+:      :+:    :+:   */
+/*   ft_strjoin_bonus.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mbenmesb <mbenmesb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/08/23 22:35:02 by mbenmesb          #+#    #+#             */
-/*   Updated: 2021/09/13 22:43:51 by mbenmesb         ###   ########.fr       */
+/*   Created: 2021/09/21 16:56:57 by mbenmesb          #+#    #+#             */
+/*   Updated: 2021/09/21 16:57:01 by mbenmesb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "ft_printf.h"
+#include "ft_printf_bonus.h"
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {

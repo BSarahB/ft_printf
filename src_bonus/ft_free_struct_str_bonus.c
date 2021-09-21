@@ -1,15 +1,15 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_free_struct_str.c                               :+:      :+:    :+:   */
+/*   ft_free_struct_str_bonus.c                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mbenmesb <mbenmesb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/08/23 21:32:27 by mbenmesb          #+#    #+#             */
-/*   Updated: 2021/08/23 21:33:06 by mbenmesb         ###   ########.fr       */
+/*   Created: 2021/09/21 16:43:28 by mbenmesb          #+#    #+#             */
+/*   Updated: 2021/09/21 16:43:32 by mbenmesb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "ft_printf.h"
+#include "ft_printf_bonus.h"
 
 void	ft_free_struct_str(char **p)
 {
